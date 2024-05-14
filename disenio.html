@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="indexdisenio.css">
+  <link rel="stylesheet" href="assets/bootstrap-5.3.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/bootstrap-icons-1.11.3/font/bootstrap-icons.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-pink nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav  mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active-link" aria-current="page" href="#">menu1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">menu2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">menu3</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-start">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-3 ">
+        <div class="row pt-5">
+          <div class="col-12 text-center text-white">
+
+            <h4 class="filtros-de"> Filtros Por Categoria</h4>
+          </div>
+          <div class="accordion accordion-flush " id="accordionFlushExample ">
+            <div class="accordion-item ">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bott " type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <i class="bi bi-alarm pading"></i>
+                  Marca
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Iphone
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Samsung
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    LG
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Huawei
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Sony
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bott" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Precio
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Q2,000
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Q3,500
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Q1,500
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Q8,000
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bott" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Categoria
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Default checkbox
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Checked checkbox
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Default checkbox
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Checked checkbox
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Default checkbox
+                  </label>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bott" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Paises
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Guatemala
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Honduras
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Mexico
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Salvador
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      EEUU
+                    </label>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-9 ">
+        <div class="row  m-5  text-center">
+          <div class="col-4">
+            <div class="card" style="width: 100%;">
+              <img src="assets/audifonos.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%;">
+              <img src="assets/audifonos.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%;">
+              <img src="assets/audifonos.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row  m-5  text-center">
+          <div class="col-4">
+            <div class="card" style="width: 100%;">
+              <img src="assets/audifonos.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%;">
+              <img src="assets/audifonos.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%;">
+              <img src="assets/audifonos.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row  m-5  text-center">
+          <div class="col-4">
+            <div class="card" style="width: 100%;">
+              <img src="assets/audifonos.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%;">
+              <img src="assets/audifonos.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%;">
+              <img src="assets/audifonos.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center  column-gap-5">
+        <div class="card mb-3 mt-5" style="max-width: 540px; ">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/ipad.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="card mb-3 mt-5" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/ipad.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center  column-gap-5">
+        <div class="card mb-3 mt-5" style="max-width: 540px; ">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/ipad.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="card mb-3 mt-5" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/ipad.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="slider">
+    <div class="slide-track">
+      <div class="slide">
+        <img src="assets/mause.jpg" width="250" height="350" alt="">
+      </div>
+      <div class="slide">
+        <img src="assets/mause.jpg" width="250" height="350" alt="">
+      </div>
+      <div class="slide">
+        <img src="assets/mause.jpg" width="250" height="350" alt="">
+      </div>
+      <div class="slide">
+        <img src="assets/mause.jpg" width="250" height="350" alt="">
+      </div>
+      <div class="slide">
+        <img src="assets/mause.jpg" width="250" height="350" alt="">
+      </div>
+      <div class="slide">
+        <img src="assets/mause.jpg" width="250" height="350" alt="">
+      </div>
+      <div class="slide">
+        <img src="assets/mause.jpg" width="250" height="350" alt="">
+      </div>
+      <div class="slide">
+        <img src="assets/mause.jpg" width="250" height="350" alt="">
+      </div>
+      <div class="slide">
+        <img src="assets/mause.jpg" width="250" height="350" alt="">
+      </div>
+      <div class="slide">
+        <img src="assets/mause.jpg" width="250" height="350" alt="">
+      </div>
+      <div class="slide">
+        <img src="assets/mause.jpg" width="250" height="350" alt="">
+      </div>
+      <div class="slide">
+        <img src="assets/mause.jpg" width="250" height="350" alt="">
+      </div>
+      <div class="slide">
+        <img src="assets/mause.jpg" width="250" height="350" alt="">
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="row bg-dark div-papa ">
+    <div class="col-6  pieuno mt-5 ">
+      <div class="row text-center me-3">
+        <div class="" style="width: 5rem;">
+          <div class="card-body">
+            
+          </div>
+        </div>
+        <div style="width: 4rem;">
+          <img src="assets/facebook.webp" class="card-img-top"  alt="...">
+          <div class="card-body">
+            
+          </div>
+        </div>
+        <div style="width: 4rem;">
+          <img src="assets/facebook.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            
+          </div>
+        </div>
+        <div style="width: 4rem;">
+          <img src="assets/facebook.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 mt-5">
+      <div class="row mt-5">
+        <ul class="col-4 lista text-center">
+          <li class="wit">contenido</li>
+          <hr class="hrr">
+          <li class="wit">Rebaja</li>
+          <li class="wit">Descuento</li>
+          <li class="wit">Promocion</li>
+          <li class="wit">Liquidacion</li>
+        </ul>
+        <ul class="col-4 lista text-center">
+          <li class="wit">pais</li>
+          <hr class="hrr">
+          <li class="wit">Guatemala</li>
+          <li class="wit">Mexico</li>
+          <li class="wit">Honduras</li>
+          <li class="wit">Brasil</li>
+        </ul>
+        <ul class="col-4 lista text-center">
+          <li class="wit">comunicate</li>
+          <hr class="hrr">
+          <li class="wit">+52 582423589</li>
+          <li class="wit">+502 58745612</li>
+          <li class="wit">academy54@gmil.com</li>
+          <li class="wit">+502 54782145</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+  <script src="./assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
